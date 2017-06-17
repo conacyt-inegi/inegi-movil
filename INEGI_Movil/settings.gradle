@@ -15,3 +15,7 @@ include ':geopaparazzi_pdf_export_plugins'
 project(':geopaparazzi_pdf_export_plugins').projectDir = new File('../../../geopaparazzi-git/plugins/geopaparazzi_pdf_export_plugins/')
 include ':plugin_gvsigol_io'
 project(':plugin_gvsigol_io').projectDir = new File('../../../gvsig-mobile/plugin_gvsigol_io/')
+include ':geopaparazzi_default_import_plugins'
+project(':geopaparazzi_default_import_plugins').projectDir = new File('../../../geopaparazzi-git/plugins/geopaparazzi_default_import_plugins/')
+include ':geopaparazzi_default_export_plugins'
+project(':geopaparazzi_default_export_plugins').projectDir = new File('../../../geopaparazzi-git/plugins/geopaparazzi_default_export_plugins/')
